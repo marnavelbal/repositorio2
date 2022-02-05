@@ -21,4 +21,8 @@ public class Persona {
     public Persona() {
     }
     
+    public int getedad(){
+        return this.edad;
+    }
+    
 }
