@@ -24,5 +24,8 @@ public class Persona {
     public int getedad(){
         return this.edad;
     }
+    public void getedad(int edad){
+        this.edad=edad;
+    }
     
 }
