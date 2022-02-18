@@ -10,7 +10,7 @@ package proyecto1;
  * @author Dell
  */
 public class Cliente extends Persona {
-   
+     private int numCliente;
 
     public Cliente(String nombre, int edad) {
         super(nombre,edad);
