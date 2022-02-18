@@ -10,7 +10,21 @@ package proyecto1;
  * @author Dell
  */
 public class Cliente extends Persona {
-     private int numCliente;
+  private int numCliente;
+    /**
+     * @return the numCliente
+     */
+    public int getNumCliente() {
+        return numCliente;
+    }
+
+    /**
+     * @param numCliente the numCliente to set
+     */
+    public void setNumCliente(int numCliente) {
+        this.numCliente = numCliente;
+    }
+    
 
     public Cliente(String nombre, int edad) {
         super(nombre,edad);
