@@ -11,10 +11,20 @@ package proyecto1;
  */
 public class Cliente extends Persona {
   private int numCliente;
+
+    public Cliente(int numCliente, String nombre, int edad) {
+        super(nombre, edad);
+        this.numCliente = numCliente;
+    }
+
+ 
+    public Cliente() {
+    }
+    
     /**
      * @return the numCliente
      */
-    public int getNumCliente() {
+      public int getNumCliente() {
         return numCliente;
     }
 
@@ -26,13 +36,7 @@ public class Cliente extends Persona {
     }
     
 
-    public Cliente(String nombre, int edad) {
-        super(nombre,edad);
-    }
-
-    public Cliente() {
-    }
-    
+   
    
     
 }
